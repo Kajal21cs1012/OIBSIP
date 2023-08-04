@@ -1,137 +1,49 @@
 body {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: Arial, sans-serif;
+    text-align: center;
+     background-image: url("https://previews.123rf.com/images/julialemba/julialemba1805/julialemba180500043/102593857-seamless-vector-pattern-of-meteorology-thermometers-on-white-background-measuring-hot-and-cold.jpg");
+    background-size: cover;
     margin: 0;
     padding: 0;
-    background-color: brown;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-restaurant-menu-background-material-image_154444.jpg");
-    background-size: cover;
   }
   
-  header {
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-restaurant-menu-background-material-image_154444.jpg");
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
     padding: 20px;
-    color: WHITE;
-    text-align: center;
-  }
-  
-  .hero {
-    background-image: url("hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    text-align: center;
-    color: #fff;
+    background-color: pink;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
-    font-size: 48px;
+    text-align:center;
+    color:red;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:purple;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
     margin-bottom: 20px;
   }
   
-  p {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    display: inline-block;
+  button {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  /*.features {
-        display: flex;
-        justify-content: space-around;
-        margin: 50px 0;
-      }*/
-  
-  .feature {
-    text-align: center;
-    max-width: 300px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .feature img {
-    max-width: 100px;
-    margin-bottom: 20px;
-  }
-  
-  .feature h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .feature p {
-    font-size: 16px;
-  }
-  
-  .cta {
-    text-align: center;
-    margin: 50px 0;
-    color: black;
-  }
-  
-  .cta h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .cta p {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  form {
-    display: grid;
-    grid-gap: 10px;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
   }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-    grid-gap: 100px;
-    justify-items: center;
-    padding: 10px;
-    background-color: yellow;
-    background-image: url("https://thumbs.dreamstime.com/b/print-177359900.jpg");
-  }
-  .grid-item {
-    text-align: center;
-    padding: 0px;
-    border: 0px solid #ccc;
-    border-radius: 5px;
-    background-image: url("https://thumbs.dreamstime.com/b/print-177359900.jpg");
+  
+  button:hover {
+    background-color: #0056b3;
   }
   
-  .grid-item img {
-    max-width: 100%;
-    border-radius: 0px;
-    background-image: url("https://thumbs.dreamstime.com/b/print-177359900.jpg");
-  }
